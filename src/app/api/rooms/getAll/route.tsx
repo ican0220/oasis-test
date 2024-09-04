@@ -31,6 +31,6 @@ export async function POST(request: NextRequest): Promise<NextResponse<Data>> {
   if (error) {
     return NextResponse.json({ res: `${error}`, status: 400 });
   } else {
-    return NextResponse.json({ res: data, status: 200 });
+    return NextResponse.json({ res: JSON.stringify(data), status: 200 });
   }
 }
