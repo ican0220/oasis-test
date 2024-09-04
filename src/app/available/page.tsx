@@ -23,7 +23,7 @@ const TABLE_HEAD: String[] = [
   "EST.RET",
 ];
 
-export const  Available = ()=> {
+ const  Available = ()=> {
  
   const [rooms, setRooms] = useState<Array<Room>| null>();
   const [filter_bedroom, setFilterBedroom] = useState<number |undefined>();
