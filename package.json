@@ -19,7 +19,8 @@
     "react-bootstrap": "^2.10.4",
     "react-dom": "^18",
     "react-toastify": "^10.0.5",
-    "supabase": "^1.191.3"
+    "supabase": "^1.191.3",
+    "type-fest": "^4.26.0"
   },
   "devDependencies": {
     "@types/node": "^20",
